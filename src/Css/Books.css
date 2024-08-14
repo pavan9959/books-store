@@ -1,0 +1,109 @@
+.books-container {
+  padding-left: 14%;
+  padding-right: 14%;
+}
+
+.category-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: rgb(100, 90, 233);
+  margin: 0;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f7ff;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.book-card {
+  text-align: center;
+  width: 114px !important;
+  height: 162px !important;
+  cursor: pointer;
+}
+
+.book-card:hover{
+  scale: 1.1;
+}
+
+.book-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: fill;
+  height: 200px;
+  height: 87%;
+  object-fit: fill;
+}
+
+.book-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: left;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+  color: #333;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-author {
+  font-size: 12px;
+  color: #555;
+  text-align: left;
+  margin: 0;
+  font-size: 12px;
+  margin-top: 4px;
+  color: #777;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Limit to 1 line */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 50px;
+}
+
+@media (max-width: 1200px) {
+  .books-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .books-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .books-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  .books-grid {
+    grid-template-columns: 1fr;
+  }
+}

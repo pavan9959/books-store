@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+  width: 80%;
+}

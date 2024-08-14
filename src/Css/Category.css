@@ -1,0 +1,86 @@
+.App-header {
+  background-color: #f8f8ff;
+  padding: 50px;
+  background-size: cover;
+}
+
+.headding {
+  text-align: left;
+  padding-left: 7%;
+  color: rgb(94, 85, 223) !important;
+  font-size: 48px;
+}
+
+.para {
+  text-align: left;
+  padding-left: 7%;
+}
+
+.categories-parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f7ff;
+}
+
+.App-header h1 {
+  font-size: 3em;
+  color: #4b3f72;
+  margin-bottom: 10px;
+}
+
+.App-header p {
+  font-size: 1.2em;
+  color: #6c757d;
+}
+.category {
+  background-color: #f8f8ff;
+  border-radius: 2px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  min-width: 450px;
+  max-width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.category:hover {
+  transform: scale(1.05);
+}
+
+.category-icon {
+  margin-right: 10px;
+  color: #4b3f72;
+  width: 30px;
+}
+
+.category-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(94, 85, 223) !important;
+}
+
+.category-arrow {
+  font-size: 1.5em;
+  color: rgb(94, 85, 223) !important;
+}
+
+.category-content {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category {
+    width: 90%;
+    max-width: none;
+  }
+}
