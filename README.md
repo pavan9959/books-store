@@ -1,3 +1,6 @@
+# Link to open the website
+https://66c19253f0169f2d7e2660ba--fabulous-chaja-c9125e.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
